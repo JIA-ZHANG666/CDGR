@@ -149,11 +149,6 @@ class GRModule(nn.Module):
         output = torch.matmul(L, x.reshape(x.shape[0], -1, x.shape[1]))
         
         return output
-       
-
-
-
-
 
 class GraphLayer(nn.Module):
     #def __init__(self, num_state, num_node, num_class):
